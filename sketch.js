@@ -38,47 +38,47 @@ var state;
 
 
 function preload() {
-  bgImg = loadImage('../assets/forestBg.jpeg')
+  bgImg = loadImage('assets/forestBg.jpeg')
   boyWalkingRight = loadAnimation(
-    '../assets/boy_right/boy_walking_right (4).png',
-    '../assets/boy_right/boy_walking_right (5).png',
-    '../assets/boy_right/boy_walking_right (6).png',
-    '../assets/boy_right/boy_walking_right (7).png',
-    '../assets/boy_right/boy_walking_right (8).png',
-    '../assets/boy_right/boy_walking_right (9).png')
+    'assets/boy_right/boy_walking_right (4).png',
+    'assets/boy_right/boy_walking_right (5).png',
+    'assets/boy_right/boy_walking_right (6).png',
+    'assets/boy_right/boy_walking_right (7).png',
+    'assets/boy_right/boy_walking_right (8).png',
+    'assets/boy_right/boy_walking_right (9).png')
   boyWalkingLeft = loadAnimation(
-    '../assets/boy_left/boy_walking_left (1).png',
-    '../assets/boy_left/boy_walking_left (2).png',
-    '../assets/boy_left/boy_walking_left (3).png',
-    '../assets/boy_left/boy_walking_left (4).png',
-    '../assets/boy_left/boy_walking_left (5).png',
-    '../assets/boy_left/boy_walking_left (6).png');
-  boyStandingRight = loadImage('../assets/boy_right/boy_walking_right (8).png')
-  boyStandingLeft = loadImage('../assets/boy_left/boy_walking_left (5).png')
-  rules = loadImage('../assets/paper_bg.png')
-  hotel_image = loadImage('../assets/hotel.png')
-  reception_bg = loadImage('../assets/reception.jpg')
-  keyImg = loadImage('../assets/key.png')
-  noteImg = loadImage('../assets/paper_bg.png')
-  hiddenRoom_image = loadImage('../assets/room_selection.jpg')
-  hotel_room = loadImage('../assets/hotel_room.jpg')
+    'assets/boy_left/boy_walking_left (1).png',
+    'assets/boy_left/boy_walking_left (2).png',
+    'assets/boy_left/boy_walking_left (3).png',
+    'assets/boy_left/boy_walking_left (4).png',
+    'assets/boy_left/boy_walking_left (5).png',
+    'assets/boy_left/boy_walking_left (6).png');
+  boyStandingRight = loadImage('assets/boy_right/boy_walking_right (8).png')
+  boyStandingLeft = loadImage('assets/boy_left/boy_walking_left (5).png')
+  rules = loadImage('assets/paper_bg.png')
+  hotel_image = loadImage('assets/hotel.png')
+  reception_bg = loadImage('assets/reception.jpg')
+  keyImg = loadImage('assets/key.png')
+  noteImg = loadImage('assets/paper_bg.png')
+  hiddenRoom_image = loadImage('assets/room_selection.jpg')
+  hotel_room = loadImage('assets/hotel_room.jpg')
   // splashImg = createImg('../assets/Adventure Games.gif')
-  basement_image = loadImage('../assets/basement.jpeg')
-  mystery_image = loadImage('../assets/Mystery.png')
-  txt1_image = loadImage('../assets/txt1.png')
-  guestbook_image = loadImage('../assets/guestbook.png')
-  danger1img = loadImage('../assets/danger1.png')
-  danger2img = loadImage('../assets/danger2.png')
-  nokeyImg = loadImage('../assets/nokey.png')
-  signImg = loadImage('../assets/signboard.png')
-  signImg1 = loadImage('../assets/signboard1.png')
-  doorImg = loadImage('../assets/door.png')
-  mirrorImg = loadAnimation('../assets/mirror.png')
-  mirrorImg1 = loadAnimation('../assets/mirror1.png')
-  waytobasement = loadImage('../assets/basement.png')
-  ghostImg = loadImage('../assets/ghost.png')
-  warn = loadImage('../assets/warn.png')
-  batImg = loadImage('../assets/batt.png')
+  basement_image = loadImage('assets/basement.jpeg')
+  mystery_image = loadImage('assets/Mystery.png')
+  txt1_image = loadImage('assets/txt1.png')
+  guestbook_image = loadImage('assets/guestbook.png')
+  danger1img = loadImage('assets/danger1.png')
+  danger2img = loadImage('assets/danger2.png')
+  nokeyImg = loadImage('assets/nokey.png')
+  signImg = loadImage('assets/signboard.png')
+  signImg1 = loadImage('assets/signboard1.png')
+  doorImg = loadImage('assets/door.png')
+  mirrorImg = loadAnimation('assets/mirror.png')
+  mirrorImg1 = loadAnimation('assets/mirror1.png')
+  waytobasement = loadImage('assets/basement.png')
+  ghostImg = loadImage('assets/ghost.png')
+  warn = loadImage('assets/warn.png')
+  batImg = loadImage('assets/batt.png')
 
 }
 
